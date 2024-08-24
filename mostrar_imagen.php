@@ -33,7 +33,9 @@
                                     <img width="100" src="data:<?php echo $row['tipo']; ?>;base64,<?php echo  base64_encode($row['imagen']); ?>">
 
                                 </td>
-                                <td><a href="eliminar.php?id=<?php echo $id; ?>"><button type="button" class="btn btn-outline-danger">ELIMINAR</button></a></td>
+                                <td>
+                                    <a href="eliminar.php?id=<?php echo $id; ?>"><button type="button" class="btn btn-outline-danger">
+                                        ELIMINAR</button></a></td>
                                 <td><a href="actualizar.php?id=<?php echo $id; ?>"><button type="button" class="btn btn-outline-primary">ACTUALIZAR</button></a></td>
                                 <!-- <td>
                                     <button class="btn btn-danger" name="eliminar">Eliminar</button>
